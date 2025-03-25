@@ -1,7 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const carsUrl="https://www.pinterest.com/pin/60728294969794497/"
     const searchInput = document.querySelector(".hero input");
     const searchButton = document.querySelector(".hero button");
     const carItems = document.querySelectorAll(".car-item");
+    fetch(carsUrl)
+    .then(response=>response.json())
+    .then(data=>{
+        console.log(data)
+    })
+    .catch(error=>console.log(error))
 
     searchButton.addEventListener("click", () => {
         const query = searchInput.value.toLowerCase();
