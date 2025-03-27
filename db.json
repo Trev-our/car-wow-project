@@ -3,22 +3,27 @@
         {
             "id":1,
             "name":"Tesla Model 3",
-            "price":45000
+            "price":45000,
+            "image":"https://i.pinimg.com/236x/f1/88/83/f1888330dc3c21616b9381f6cbbba8be.jpg"
+
         },
         {
             "id":2,
             "name":"BMW X5",
-            "price":60000
+            "price":60000,
+            "image":"https://i.pinimg.com/236x/e4/06/aa/e406aa807fdbe5f4e36014eea5dcbede.jpg"
         },
         {
             "id":3,
             "name":"Audi A4",
-            "price":38000
+            "price":38000,
+            "image": "https://i.pinimg.com/236x/df/24/75/df247516e7ceb842d4aed0c58c0d6b7a.jpg"
         },
         {
             "id":4,
             "name":"Doge srt demon",
-            "price":100000
+            "price":100000,
+            "image": "https://i.pinimg.com/236x/fa/9d/87/fa9d873d9fa8aabf2480e50215b58d57.jpg"
         }
     ]
     
